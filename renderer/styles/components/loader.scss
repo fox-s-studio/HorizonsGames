@@ -1,0 +1,17 @@
+.Loader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    img{
+        height: 50%;
+        width: 50%;
+        object-fit: contain;
+        animation: Loader infinite linear 2s;
+    }
+    .Loader-text{
+        color: #fff
+    }
+}
